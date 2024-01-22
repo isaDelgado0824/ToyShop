@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ToyStore</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+<body>
+
+    <div class="wrapper">
+        <aside>
+            <header>
+                <h1 class="logo">ToyStore</h1>
+            </header>
+    
+            <nav>
+                <ul class="menu">
+                    <li>
+                        </i><button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-dice-5-fill"></i> Todos los productos </button>
+                    </li>
+                    <li>
+                        <button id="infantil" class="boton-menu boton-categoria"><i class="bi bi-dice-5"></i> Infantil </button>
+                    </li>
+                    <li>
+                        <button id="juegosDeMesa" class="boton-menu boton-categoria"><i class="bi bi-dice-5"></i> Juegos de mesa </button>
+                    </li>
+                    <li>
+                        <button id="peluches" class="boton-menu boton-categoria"><i class="bi bi-dice-5"></i> Peluches </button>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito" href="./carrito.html">
+                            <i class="bi bi-basket-fill"></i> Carrito <span id="numerito" class="numerito">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+    
+            <footer>
+                <p class="texto-footer">© 2024 Isabella Delgado</p>
+            
+            </footer>
+        </aside>
+        <main>
+            <h2 id="titulo-principal" class="titulo-principal">Todos los productos</h2>
+            <div class="contenedor-productos" id="contenedor-productos">
+                <!-- Se llena con javaScript -->
+            </div>
+        </main>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
